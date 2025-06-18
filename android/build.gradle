@@ -19,6 +19,7 @@ android {
     namespace 'com.tron'
 
     defaultConfig {
+        minSdkVersion 26
         buildConfigField("boolean", "IS_NEW_ARCHITECTURE_ENABLED", isNewArchitectureEnabled().toString())
     }
 
